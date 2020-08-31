@@ -7,8 +7,11 @@ PHPSpreadsheet: https://phpspreadsheet.readthedocs.io/en/latest/
 
 
 Directories:
-/arrays -- Contains 1 PHP file with 4 arrays that map EMS fields to Localist fields 
+
+/arrays -- Contains 1 PHP file with 4 arrays that map EMS fields to Localist fields
+
 /csv -- Holds the CSV template for Localist. Also, used to output the final CSV
+
 /php -- 2 PHP files, 1 converts the Localist CSV template to an array. The other reads the EMS event export .xls file and creates the final converted CSV.
 
 

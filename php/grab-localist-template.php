@@ -1,10 +1,8 @@
 <?php 
 
-
-echo "\n running grab-localist-template.php";
-
 $csv = array();
-$lines = file('/home/pc2qr7s6a654/public_html/ems/ems-to-localist/csv/template.csv', FILE_IGNORE_NEW_LINES);
+//Pull the recent template from localist
+$lines = file('csv/template.csv', FILE_IGNORE_NEW_LINES);
 
 
 foreach ($lines as $key => $value)
@@ -21,8 +19,5 @@ foreach($csv as $key => $value){
     $localist[$count] = array_combine($titles,$value);
     $count = $count + 1;
 }
-
-var_dump($localist);
-echo "count: " . $count;
 
 ?>

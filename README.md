@@ -1,4 +1,4 @@
-Disclaimer: I am not an expert with using EMS. This is the process I set up so we could get connect the two apps. If there is something that I could do better, please let me know! :)
+Disclaimer: I am not an expert with using EMS. This is the process I set up so we could get connect the two apps. 
 
 In this repo, you will find the building blocks you need to convert a .xls EMS event export file to a Localist compatible .csv file.
 
